@@ -1,0 +1,113 @@
+*{box-sizing: border-box; margin: 0; padding: 0;    font-family: 'Jost', Arial, sans-serif;}
+.main
+{
+  display: grid;
+  grid-template-rows: 2fr 3fr 5fr;
+  
+}
+.header
+{
+    display: grid;
+    color: white;
+    background: black;
+    font-size: 14px;
+    font-weight: 500;
+   padding-top: 16px;
+   text-align: center;
+}
+.nav
+{
+    display: grid;
+    grid-template-columns: 4fr 2fr 2fr 2fr;
+}
+
+.nav .ha ul
+{
+  padding: 20px;
+  margin-left: 60px;
+}
+.nav .ha ul li{
+    display: inline;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav .ha ul li:hover
+{
+    color:red;
+}
+.nav .hb
+{
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.nav .hc
+{
+    padding-top: 8px;
+}
+.nav .hc ul
+{
+  margin: 15px;
+  
+}
+.nav .hc ul li
+{
+   display: inline;
+   margin-left: 30px;
+   font-weight: 600;
+   cursor: pointer;
+}
+.nav .hd ul{
+    margin: 20px;
+}
+.nav .hd ul li
+{
+    display: inline;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.back 
+{
+    display: grid;
+    position: relative;
+
+}
+.back .ba
+{
+    margin-top: -90px;
+    position: absolute;
+}
+.bb
+{
+    position:absolute;
+    margin-left: 180px;
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.bb h2
+{
+    font-size: 80px;
+    color: red;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.bb p
+{
+    padding-top: 20px;
+    font-weight: 600;
+}
+.bb button
+{
+    height: 50px;
+    width: 140px;
+    margin-top: 40px;
+    background: black;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}

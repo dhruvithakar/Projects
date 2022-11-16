@@ -1,0 +1,303 @@
+*{box-sizing: border-box;margin: 0;padding: 0;font-family:"DM Sans",sans-serif ;}
+.main
+{
+    height: 50px;
+    width: 100%;
+    background:  #6EC1E4;
+    display: flex;
+}
+.menu
+{    height: 50px;
+    width: 50%;
+    font-size: 19px;
+    color: white;
+    margin-left: 130px;
+    line-height: 2.5;
+    cursor: pointer;
+}
+.menu a
+{
+    margin: 10px;
+}
+.menu:hover{
+   /* color: lightgray;*/
+    opacity: 80%;
+}
+.icon 
+{
+    height: 50px;
+    width: 50%;
+}
+.icon ul
+{
+    margin-left: 300px;
+}
+.icon ul li
+{
+    display: inline;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 7px;
+    line-height: 2.5;
+    color: white;
+    font-size: 20px;   
+}
+.icon ul li:hover
+{
+    opacity: 80%;
+}
+.header
+{
+    height: 110px;
+    width: 100%;
+    background: white;
+    display: flex;
+}                   
+.logo
+{
+    margin-left: 100px;
+    width: 15%;
+    padding-top: 14px;
+}
+.navbar
+{
+    width: 50%;
+}
+.navbar ul
+{
+    margin-left: 30px;
+    padding: 45px;
+}
+.navbar ul li
+{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-family: "DM Sans",sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.navbar ul li:hover
+{
+    color: #dc6c8f;
+}
+.header .button
+{
+   /* width: 20%;*/
+    background:  #6EC1E4;
+    border: 1PX solid  #6EC1E4;
+    font-size: 18px;
+    height: 50px;
+    width: 180px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 50px;
+    margin-top: 26px;
+    font-family: "DM Sans",sans-serif;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.header .button:hover
+{
+    background: blue;
+}
+.back
+{
+    height: 700px;
+    width: 100%;
+    background: url(https://justshoppe.bolvosites.com/thebakerynew/wp-content/uploads/sites/28/2020/08/background2.jpg);
+    background-repeat: no-repeat;
+}
+.back h1
+{
+    font-size: 76px;
+    color: white;
+    text-align: center;
+    font-family: "DM Sans",sans-serif;
+    padding-top: 170px;
+    font-weight: 600;
+}
+.back p
+{
+    font-size: 24px;
+    color: white;
+    font-family: "DM Sans",sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 1;
+    line-height: 40px;
+}
+.back .btn
+{
+    height: 50px;
+    width: 180px;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #F2C439;
+    border: 1px solid #F2C439;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 25px;
+    padding-top: 10px;
+    font-family: "DM Sans",sans-serif;
+    cursor: pointer;
+}
+.back .btn:hover
+{
+
+    background: #dc6c8f;
+    border:  #dc6c8f;
+}
+.slider
+{
+    height: 650px;
+    width: 100%;
+    background:white;
+    display: flex;
+}
+.cake
+{
+    height: 650px;
+    width: 40%;
+    background:url(https://justshoppe.bolvosites.com/thebakerynew/wp-content/uploads/sites/28/2020/08/welcome.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+
+
+}
+.para
+{
+    height: 650px;
+    width: 60%;
+    background:white;
+
+}
+.para h1
+{
+    font-size: 45px;
+    padding-top: 130px;
+}
+.para p
+{
+    margin-top: 35px;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 1.5;
+    color: #333;
+}
+.para .button
+{     
+    height: 60px;
+    width: 160px;
+    font-size: 18px;
+    font-weight: 600;
+    background:   #8BACF7;
+    border: 1PX solid   #8BACF7;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    margin-top: 40px;
+    border-radius: 40px;
+    padding-top: 20px;
+}
+.para .button:hover
+{
+    background: blue;
+}
+
+.products
+{
+   height: auto;
+   background:  #F7F7F7;
+    padding: 45px;
+}
+.products p 
+{
+    margin: 22px 0;
+}
+
+.products .box
+{
+    height: auto;
+    background: ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.products .box .prd
+{
+    height: 450px;
+    width: 20%;
+    border: 2px solid;
+    border-radius:12px;
+    margin-right: 20px;
+    position: relative;
+    /* background: lightblue; */
+}
+.products .box .prd .prdimg
+{
+    height: 300px;
+    width: 100%;
+    border-radius:12px 12px 0 0;
+    /* border: 2px solid; */
+   
+    
+    /* background: lightblue; */
+}
+
+.products .box .prd .prdimg1
+{
+    background: url(https://justshoppe.bolvosites.com/thebakerynew/wp-content/uploads/sites/28/2020/08/feature-1.jpg);
+
+    background-size: 100% 100%;
+}
+.products .box .prd .prdimg2
+{
+    background: url(https://justshoppe.bolvosites.com/thebakerynew/wp-content/uploads/sites/28/2020/08/feature-2.jpg);
+
+    background-size: 100% 100%;
+}
+.products .box .prd .prdimg3
+{
+    background: url(https://justshoppe.bolvosites.com/thebakerynew/wp-content/uploads/sites/28/2020/08/feature-3.jpg);
+
+    background-size: 100% 100%;
+}
+.products .box .prd .prdimg4
+{
+    background: url(https://justshoppe.bolvosites.com/thebakerynew/wp-content/uploads/sites/28/2020/08/feature-4.jpg);
+
+    background-size: 100% 100%;
+}
+
+
+
+
+.products .box .prd .prdinfo
+{
+    height: 150px;
+    width: 100%;
+    /* border: 2px solid; */
+    text-align: center;
+    /* background: lightblue; */
+}
+.products .box .prd .prdinfo
+{
+    padding-top: 25px;
+}
+
+.products .box .prd  span 
+{
+    position: absolute;
+    top:62%;
+    left: 35%;
+    background: gray;
+    border: 5px solid #fff;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
